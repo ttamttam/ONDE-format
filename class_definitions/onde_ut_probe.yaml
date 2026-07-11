@@ -104,12 +104,16 @@ fields:
     storage: attribute
     hdf5_type: H5T_FLOAT
     description: |-
-      Multi values : value in mm - FLAT : no value - CYLINDRICAL_INC,
-      CYLINDRICAL_PER : Surface radius - SPHERICAL : Surface radius - BIFOCAL :
-      Surface radius in the incidence plane, surface radius in the plane
-      perpendicular to the incidence plane - TRIFOCAL : Surface radius in the
-      incidence plane (bottom), Surface radius in the incidence plane (top),
-      surface radius in the plane perpendicular to the incidence plane.
+      Multi values: value in mm
+
+      - FLAT: no value
+      - CYLINDRICAL_INC, CYLINDRICAL_PER: Surface radius
+      - SPHERICAL: Surface radius
+      - BIFOCAL: Surface radius in the incidence plane, surface radius in the plane
+        perpendicular to the incidence plane
+      - TRIFOCAL: Surface radius in the incidence plane (bottom), Surface radius in
+        the incidence plane (top), surface radius in the plane perpendicular to the
+        incidence plane.
     dimensions: '[3]'
   COUPLING:
     full_name: ONDE_UT_PROBE:COUPLING

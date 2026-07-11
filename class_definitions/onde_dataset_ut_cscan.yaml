@@ -86,7 +86,7 @@ fields:
     hdf5_type: H5T_STRING
     description: |-
       string defining the stored data - the name can be either custom
-      (MY_MATERIAL_PROPERTY for instance) or a standardized name : THICKNESS,
+      (MY_MATERIAL_PROPERTY for instance) or a standardized name: THICKNESS,
       TIME_OF_FLIGHT, DEPTH, AMAX
     dimensions: '[N_CS<m>]'
   UNDERLYING_DATA:

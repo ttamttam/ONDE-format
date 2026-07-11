@@ -10,7 +10,7 @@ fields:
     description: |-
       String defining the stored data (for the AMPLITUDE_DIMENSION) or the
       indexed coordinates (for INDEX_DIMENSIONS). The name can be either custom
-      (MY_MATERIAL_PROPERTY for instance) or a standardized name : Time,
+      (MY_MATERIAL_PROPERTY for instance) or a standardized name: Time,
       Voltage, Pressure, Thickness, Time of flight, Depth, Amax, etc. The
       default interpretation if this value is unspecified depends on context
       (default coordinate is Amplitude for AMPLITUDE_DIMENSION or Time for

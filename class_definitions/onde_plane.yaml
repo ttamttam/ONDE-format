@@ -9,8 +9,7 @@ description: |-
     (see [Figure 6](onde_plane.md)). The dimensions are given by
     PLATE_DIMENSIONS, as a triplet with values for length, width, and thickness.
 
-    ![Trajectory planar coordinate system
-     convention](../images/media/trajectory_planar_coords.png "Figure 6")
+    ![Trajectory planar coordinate system convention](../images/media/trajectory_planar_coords.png "Figure 6")
 
     *[Figure 6](onde_plane.md): Trajectory planar coordinate system convention*
 fields:

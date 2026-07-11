@@ -8,8 +8,9 @@ description: |-
 
     The acquisition gate is implicitly defined by:
 
-    - the value of Ascan_Astart the sampling frequency the dimension of data
-    - N_Time\<m\>
+    - the value of Ascan_Astart
+    - the sampling frequency
+    - the dimension of data N_Time\<m\>
 
     t0 : ASCAN_ASTART
 
@@ -44,12 +45,10 @@ description: |-
 
     The filtering parameters take different values following the filter type.
 
-    - For FILTER_TYPE HIGH_PASS or LOW_PASS this is a single value giving the -3
-    - dB cut-off frequency For FILTER_TYPE BAND_PASS this should contain two
-    - values for the lower and upper -3 dB cut-off frequencies For FILTER_TYPE
-    - OTHER, this should be an \[3,N_DF\<m\>\] matrix where the first row is
-    - frequency and the second and third rows provide the real and imaginary
-    - parts of the filter's transfer function at that frequency.
+    - For FILTER_TYPE HIGH_PASS or LOW_PASS this is a single value giving the -3 dB cut-off frequency.
+    - For FILTER_TYPE BAND_PASS this should contain two values for the lower and upper -3 dB cut-off frequencies.
+    - For FILTER_TYPE OTHER, this should be an \[3,N_DF\<m\>\] matrix where the first row is frequency and the second and
+      third rows provide the real and imaginary parts of the filter's transfer function at that frequency.
 
     **Combination between offsets and trajectories**
 
@@ -64,11 +63,9 @@ description: |-
     used to define the PCF locations. If the offset is not provided, the PCF and
     trajectory frame are assumed to be the same.
 
-    ![Example of offset and trajectory combination in the case of a TOFD
-     inspection](../images/media/tofd_inspection_trajectory.png "Figure 23")
+    ![Example of offset and trajectory combination in the case of a TOFD inspection](../images/media/tofd_inspection_trajectory.png "Figure 23")
 
-    *[Figure 23](onde_ultrasonic_setup.md): Example of offset and trajectory
-     combination in the case of a TOFD inspection*
+    *[Figure 23](onde_ultrasonic_setup.md): Example of offset and trajectory combination in the case of a TOFD inspection*
 
     **Variable gates**
 
@@ -97,7 +94,7 @@ fields:
     storage: attribute
     hdf5_type: H5T_STRING
     description: |-
-      Defines the type of filtering applied to the signals : NO_FILTER,
+      Defines the type of filtering applied to the signals: NO_FILTER,
       LOW_PASS, HIGH_PASS, BAND_PASS, OTHER
     allowed_values: '"NO_FILTER","LOW_PASS","HIGH_PASS","BAND_PASS","OTHER"'
   FILTER_PARAMETERS:
