@@ -11,8 +11,8 @@ description: |+
     different values.
 
     DATA contains a vector of references to datasets containing scalar raw
-    data. The size of the data can be either N_DF\<m\> x N_Ascan\<m\> arrays
-    (for data resulting from analysis of signals or N_DF\<m\> arrays for encoder
+    data. The size of the data can be either \(N_{\mathrm{DF}}^{(m)} \times N_{\mathrm{Ascan}}^{(m)}\) arrays
+    (for data resulting from analysis of signals or \(N_{\mathrm{DF}}^{(m)}\) arrays for encoder
     data or data resulting from Tscan or monoelement scans.
 
     **Data description**

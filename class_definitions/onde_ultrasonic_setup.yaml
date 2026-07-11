@@ -10,11 +10,15 @@ description: |-
 
     - the value of Ascan_Astart
     - the sampling frequency
-    - the dimension of data N_Time\<m\>
+    - the dimension of data \(N_{\mathrm{Time}}^{(m)}\)
 
-    t0 : ASCAN_ASTART
+    \[
+    t_0 = \mathrm{ASCAN\_ASTART}
+    \]
 
-    tend : ASCAN_ASTART + (N_Time\<m\> - 1)/ASCAN_SAMPLE_RATE
+    \[
+    t_{\mathrm{end}} = \mathrm{ASCAN\_ASTART} + \frac{N_{\mathrm{Time}}^{(m)} - 1}{\mathrm{ASCAN\_SAMPLE\_RATE}}
+    \]
 
     **Gain**
 
@@ -47,7 +51,7 @@ description: |-
 
     - For FILTER_TYPE HIGH_PASS or LOW_PASS this is a single value giving the -3 dB cut-off frequency.
     - For FILTER_TYPE BAND_PASS this should contain two values for the lower and upper -3 dB cut-off frequencies.
-    - For FILTER_TYPE OTHER, this should be an \[3,N_DF\<m\>\] matrix where the first row is frequency and the second and
+    - For FILTER_TYPE OTHER, this should be a \(3 \times N_{\mathrm{DF}}^{(m)}\) matrix where the first row is frequency and the second and
       third rows provide the real and imaginary parts of the filter's transfer function at that frequency.
 
     **Combination between offsets and trajectories**

@@ -12,9 +12,9 @@ description: |-
     parameters indicate the dimensions of each element according to their
     geometry, see [Figure 12](onde_ut_elements.md).
 
-    - For ELE_GEOM_REC: DIM_X1, DIM_Y, 0.0, 0.0, 0.0, 0.0.
-    - For ELE_GEOM_RING_PART: r, e, theta_min, theta_max, 0.0, 0.0
-    - For ELE_GEOM_ELLIPSE_PART: r_X, e_X, r_Y, e_Y, theta_min, theta_max
+    - For ELE_GEOM_REC: \(\mathrm{Dim}_x, \mathrm{Dim}_y, 0.0, 0.0, 0.0, 0.0\).
+    - For ELE_GEOM_RING_PART: \(R, e, \theta_{\min}, \theta_{\max}, 0.0, 0.0\)
+    - For ELE_GEOM_ELLIPSE_PART: \(R_x, e_x, R_y, e_y, \theta_{\min}, \theta_{\max}\)
 
     ![Different types of element shape](../images/media/element_shapes.png
      "Figure 12")
