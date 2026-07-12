@@ -59,4 +59,4 @@ fields:
     hdf5_type: H5T_STRING
     description: ''
     dimensions: '1'
-    allowed_values: '"0.9.0"'
+    allowed_values: '"0.9.1"'
