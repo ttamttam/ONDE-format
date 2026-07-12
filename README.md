@@ -1,5 +1,5 @@
 # ONDE-format
-
+Trig  PR
 ## Generalities
 Specification of the ONDE (**Open Non Destructive Evaluation**) Format
 
