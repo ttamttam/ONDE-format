@@ -2,13 +2,13 @@ onde_class: ONDE_PHASED_ARRAY_SSCAN
 inherits:
 - ONDE_PHASED_ARRAY_SETUP
 description: |-
-    **SScan**
-  
+    #### SScan
+
     In this configuration (see [Figure 25](onde_phased_array_sscan.md)), the probe is configured to emit/receive at a set of angles. The angles are
     linearly varying, therefore the first and last angles and the number of shots define the set of angles.
-  
+
     ![SScan configuration](../images/media/sscan_config.png "Figure 25")
-  
+
     *[Figure 25](onde_phased_array_sscan.md): SScan configuration*
 fields:
   STARTING_ANGLE:
