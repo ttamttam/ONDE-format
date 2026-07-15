@@ -52,7 +52,7 @@ description: |-
     - For FILTER_TYPE BAND_PASS this should contain two values for the lower and
       upper -3 dB cut-off frequencies
     - For FILTER_TYPE OTHER, this should be an [3, N_U<m>, N_V<m>] matrix where
-the first row is frequency and the second and third rows provide the real
+      the first row is frequency and the second and third rows provide the real
       and imaginary parts of the filter's transfer function at that frequency.
 
     #### Combination between offsets and trajectories
